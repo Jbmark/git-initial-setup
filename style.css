@@ -1,1 +1,36 @@
-body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 20px; }echo .intro-section { padding: 40px 0; }echo .profile-img { width: 120px; height: 120px; border-radius: 50%%; object-fit: cover; }echo .btn { display: inline-block; background-color: #000; color: #fff; padding: 10px 20px; text-decoration: none; margin-top: 15px; border-radius: 4px; }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.skill-card {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    flex: 1 1 150px;
+    border-radius: 4px;
+}

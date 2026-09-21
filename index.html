@@ -4,45 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px;">
 
-    <!-- ACTIVITY 1: INTRO SECTION -->
-    <section class="intro-section" style="text-align: center; padding: 60px 20px;">
-        <h1 style="font-size: 2.5rem; margin-bottom: 5px;">Hi, I'm Mark Hermie M. Bongales</h1>
-        <p style="font-size: 1.2rem; color: #007BFF; font-weight: bold; margin-top: 0;">Aspiring Web Developer</p>
-        <p style="max-width: 500px; margin: 15px auto; color: #666;">Building clean, functional, and beautiful web pages.</p>
-        <a href="#about" style="display: inline-block; background-color: #000; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px;">Learn More</a>
-    </section>
+  <!-- ACTIVITY 1: INTRO SECTION -->
+<section class="intro-section">
+	<img src="images/profile.jpg" alt="Profile photo" class="profile-img">
+
+	<h1>Hi, I'm Mark Hermie M. Bongales</h1>
+
+	<p>Aspiring Web Developer</p>
+
+        <p>Building clean, functional, and beautiful web pages.</p>
+
+	<a href="#about" class="btn">Learn More</a>
+</section>
 
     <!-- ACTIVITY 2: ABOUT ME -->
-    <section id="about" style="max-width: 600px; margin: 40px auto; border-top: 1px dashed #ccc; padding-top: 20px;">
-        <h2>About Me</h2>
-        <p>Hi, my name is Mark Hermie M. Bongales. I am exploring front-end engineering frameworks and version tracking workflows.</p>
-        <h3>My Interests</h3>
-        <ul>
-            <li>Web Page Architecture</li>
-            <li>System Administration Layouts</li>
-        </ul>
-        <h3>My Goals</h3>
-        <ol>
-            <li>Finish my computing studies</li>
-            <li>Master structural style layouts</li>
-        </ol>
-    </section>
+<section id="about" style="max-width: 600px; margin: 40px auto; border-top: 1px dashed #ccc; padding-top: 20px;">
+    <h2>About Me</h2>
 
-    <!-- ACTIVITY 3: SKILLS CARDS -->
-    <section id="skills" style="max-width: 600px; margin: 40px auto; border-top: 1px dashed #ccc; padding-top: 20px;">
-        <h2>My Skills</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <div style="background: #f4f4f4; border: 1px solid #ddd; padding: 10px; flex: 1 1 150px; border-radius: 4px;"><strong>HTML</strong><p style="margin:5px 0 0 0; font-size:0.85rem;">Structure and content</p></div>
-            <div style="background: #f4f4f4; border: 1px solid #ddd; padding: 10px; flex: 1 1 150px; border-radius: 4px;"><strong>CSS</strong><p style="margin:5px 0 0 0; font-size:0.85rem;">Design and layouts</p></div>
-            <div style="background: #f4f4f4; border: 1px solid #ddd; padding: 10px; flex: 1 1 150px; border-radius: 4px;"><strong>Git</strong><p style="margin:5px 0 0 0; font-size:0.85rem;">Version tracking rules</p></div>
-            <div style="background: #f4f4f4; border: 1px solid #ddd; padding: 10px; flex: 1 1 150px; border-radius: 4px;"><strong>GitHub</strong><p style="margin:5px 0 0 0; font-size:0.85rem;">Cloud collaboration</p></div>
-            <div style="background: #f4f4f4; border: 1px solid #ddd; padding: 10px; flex: 1 1 150px; border-radius: 4px;"><strong>SQL</strong><p style="margin:5px 0 0 0; font-size:0.85rem;">Database logic</p></div>
-            <div style="background: #f4f4f4; border: 1px solid #ddd; padding: 10px; flex: 1 1 150px; border-radius: 4px;"><strong>Terminal</strong><p style="margin:5px 0 0 0; font-size:0.85rem;">Command environments</p></div>
+    <p>Hi, my name is Mark Hermie M. Bongales. I am a BSIS student interested in web development and information systems.</p>
+
+    <p>I am currently developing my skills in web design, programming, and database systems as part of my studies.</p>
+
+    <h3>My Interests</h3>
+    <ul>
+        <li>Web Page Architecture</li>
+        <li>System Administration Layouts</li>
+    </ul>
+
+    <h3>My Goals</h3>
+    <ol>
+        <li>Finish my computing studies</li>
+        <li>Master structural style layouts</li>
+    </ol>
+</section>
+
+  <!-- ACTIVITY 3: SKILLS CARDS -->
+<section id="skills" style="max-width: 600px; margin: 40px auto; border-top: 1px dashed #ccc; padding-top: 20px;">
+    <h2>My Skills</h2>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+        <div class="skill-card">
+            <strong>HTML</strong>
+            <p style="margin:5px 0 0 0; font-size:0.85rem;">Structure and content</p>
         </div>
-    </section>
+
+        <div class="skill-card">
+            <strong>CSS</strong>
+            <p style="margin:5px 0 0 0; font-size:0.85rem;">Design and layouts</p>
+        </div>
+
+        <div class="skill-card">
+            <strong>Git</strong>
+            <p style="margin:5px 0 0 0; font-size:0.85rem;">Version tracking rules</p>
+        </div>
+
+        <div class="skill-card">
+            <strong>GitHub</strong>
+            <p style="margin:5px 0 0 0; font-size:0.85rem;">Cloud collaboration</p>
+        </div>
+
+        <div class="skill-card">
+            <strong>SQL</strong>
+            <p style="margin:5px 0 0 0; font-size:0.85rem;">Database logic</p>
+        </div>
+
+        <div class="skill-card">
+            <strong>Terminal</strong>
+            <p style="margin:5px 0 0 0; font-size:0.85rem;">Command environments</p>
+        </div>
+
+    </div>
+</section>
 
 </body>
 </html>
