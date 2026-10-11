@@ -6,12 +6,13 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px;">
+<body>
+    
 
   <!-- ACTIVITY 1: INTRO SECTION -->
 <section class="intro-section">
 	<img src="images/profile.jpg" alt="Profile photo" class="profile-img">
-
+<div class="intro-text">
 	<h1>Hi, I'm Mark Hermie M. Bongales</h1>
 
 	<p>Aspiring Web Developer</p>
@@ -19,6 +20,7 @@
         <p>Building clean, functional, and beautiful web pages.</p>
 
 	<a href="#about" class="btn">Learn More</a>
+</div>
 </section>
 
     <!-- ACTIVITY 2: ABOUT ME -->
@@ -28,22 +30,27 @@
     <p>Hi, my name is Mark Hermie M. Bongales. I am a BSIS student interested in web development and information systems.</p>
 
     <p>I am currently developing my skills in web design, programming, and database systems as part of my studies.</p>
-
+<div class="about-container">
+    <div class="column1">
     <h3>My Interests</h3>
     <ul>
         <li>Web Page Architecture</li>
         <li>System Administration Layouts</li>
     </ul>
-
+</div>
+<div class="column">
     <h3>My Goals</h3>
     <ol>
         <li>Finish my computing studies</li>
         <li>Master structural style layouts</li>
     </ol>
+</div>
+</div>
 </section>
 
   <!-- ACTIVITY 3: SKILLS CARDS -->
 <section id="skills" style="max-width: 600px; margin: 40px auto; border-top: 1px dashed #ccc; padding-top: 20px;">
+
     <h2>My Skills</h2>
 
     <div>
@@ -76,6 +83,51 @@
         <div class="skill-card">
             <strong>Terminal</strong>
             <p style="margin:5px 0 0 0; font-size:0.85rem;">Command environments</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ACTIVITY 4: PROJECTS SECTION -->
+<section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <img src="images/project1.jpg" alt="Portfolio Website">
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>A personal website that introduces me and shows my skills.</p>
+
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+
+            <a href="file:///C:/Users/Admin/git-initial-setup/index.html" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project2.jpg" alt="Thales Memories Gallery">
+
+            <h3>Thales Memories</h3>
+
+            <p>A responsive media archival platform built to host and showcase class milestones.</p>
+
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+
+            <a href="https://jbmark.github.io/seniorhigh/" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project3.jpg" alt="MK Hub Platform">
+
+            <h3>MK Hub</h3>
+
+            <p>A comprehensive entertainment website designed to help users discover a world full of entertainment across Movies, TV Shows, Music, and Sports.</p>
+
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+
+            <a href="https://jbmark.github.io/mkhub.github.io/" class="project-btn">View Project</a>
         </div>
 
     </div>
