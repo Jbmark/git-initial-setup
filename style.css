@@ -136,3 +136,41 @@ body {
 .experience-table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+
+/* ACTIVITY 6: NAVIGATION MENU */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation a:hover {
+    color: blue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
