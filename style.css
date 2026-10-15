@@ -218,3 +218,106 @@ html {
 .contact-form button:hover {
     background-color: #444;
 }
+
+
+/* ACTIVITY 8: RESPONSIVE DESIGN */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .site-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .intro-section {
+        padding: 30px 10px;
+    }
+
+    .profile-img {
+        margin-right: 0;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .experience-table {
+        font-size: 12px;
+    }
+
+    .experience-table th,
+    .experience-table td {
+        padding: 6px;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-section {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .intro-section {
+        padding: 20px 5px;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin: 0 auto 15px;
+    }
+
+    .intro-text {
+        display: block;
+        text-align: center;
+    }
+
+    .intro-text h1 {
+        font-size: 24px;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .experience-table {
+        font-size: 10px;
+    }
+
+    .experience-table th,
+    .experience-table td {
+        padding: 4px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
