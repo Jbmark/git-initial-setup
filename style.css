@@ -321,3 +321,24 @@ html {
         box-sizing: border-box;
     }
 }
+
+
+
+/* ACTIVITY 9: FOOTER */
+
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
